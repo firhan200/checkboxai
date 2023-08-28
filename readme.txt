@@ -7,6 +7,3 @@ client: http://localhost:3000
 
 -- PRODUCTION MODE --
 coming soon...
-
--- DEPLOYMENT COMMAND --
-git checkout production && git pull origin master && git push origin production && git checkout master
