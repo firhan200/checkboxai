@@ -1,0 +1,12 @@
+{
+    "name": "workspace",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+      "down": "docker compose --env-file ./server/.env  -f ./docker-compose.yaml down",
+      "dev": "docker compose --env-file ./server/.env  -f ./docker-compose.yaml up",
+      "build": "docker compose --env-file ./server/.env  -f ./docker-compose.yaml build"
+    }
+  }
+  
